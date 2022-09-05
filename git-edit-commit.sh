@@ -1,4 +1,10 @@
 #!/bin/bash
+# ###################################
+# Author      : gaoyang
+# Url         : https://github.com/gaoyang/tool-shells
+# Description : 修改git提交历史
+# ###################################
+
 cd $1
 
 read -r -p "输入要修改的邮箱地址:" email

@@ -1,4 +1,9 @@
 #!/bin/bash
+# ###################################
+# Author      : gaoyang
+# Url         : https://github.com/gaoyang/tool-shells
+# Description : 清理多余的本地 nuget 包，规则：只保留最近一次下载的包
+# ###################################
 
 output=$(dotnet nuget locals global-packages -l)
 packages_folder=${output#"global-packages: "}
